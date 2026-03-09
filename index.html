@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Ваше имя — Портфолио</title>
+  <meta name="description" content="Портфолио: проекты, навыки, контакты." />
+
+  <!-- Мини-стили прямо внутри файла (чтобы больше ничего не создавать) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Шапка -->
+  <header>
+    <div class="nav">
+      <div class="brand"><span class="dot"></span> <span>Елена Скворцова</span></div>
+      <nav class="menu">
+        <a href="#projects">Проекты</a>
+        <a href="#about">О себе</a>
+        <a href="#skills">Навыки</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Hero-блок (верх страницы) -->
+    <div class="hero">
+      <div class="hero-grid">
+        <div class="card pad">
+          <h1>Привет, я <span style="color:var(--accent)">Елена</span> 👋</h1>
+          <p class="subtitle">
+              <strong>Data Scientist</strong> с более чем <strong>4-летним опытом работы в IT и аналитике данных</strong>, 
+              специализирующийся на разработке аналитических решений и моделей машинного обучения для бизнеса. 
+              В настоящее время работаю в международной компании <strong>Cargill</strong>, где занимаюсь анализом данных 
+              и созданием моделей, позволяющих находить закономерности в данных и поддерживать стратегические решения.<br><br>
+
+              Ранее работала с данными в крупнейших компаниях ритейла и FMCG — 
+              <strong>X5 Retail Group</strong> и <strong>ВкусВилл</strong>. 
+              В X5 занималась анализом <strong>сырых логов кассовых систем</strong> и участвовала во внедрении 
+              <strong>process mining</strong> для анализа и оптимизации операционных процессов. 
+              Во ВкусВилл разрабатывала решения для <strong>прогнозирования спроса на товары</strong>, 
+              исследовала <strong>структуру потребительской корзины</strong> и участвовала в задачах 
+              <strong>оптимизации товарных остатков в магазинах</strong>.<br><br>   
+            </p>
+
+          <div class="actions">
+            <a class="btn primary" href="#projects">Смотреть проекты →</a>
+            <a class="btn" href="#contacts">Связаться</a>
+          </div>
+
+          <div class="chips">
+            <span class="chip">Python/R</span>
+            <span class="chip">SQL</span>
+            <span class="chip">Tensorflow</span>
+            <span class="chip">Scikitlearn</span>
+            <span class="chip">Pytorch</span>
+            <span class="chip">Recsys</span>
+            <span class="chip">LLM</span>
+            <span class="chip">Classic ML</span>
+            <span class="chip">XGBoost</span>
+            <span class="chip">Statsmodels</span>
+            <span class="chip">Pandas</span>
+            <span class="chip">NumPy</span>
+            <span class="chip">Tableau</span>
+            <span class="chip">Git</span>
+            <span class="chip">Docker</span>
+            <span class="chip">Jupyter</span>
+            <span class="chip">Airflow</span>
+          </div>
+        </div>
+
+        <div class="card pad profile-card">
+          <img src="я.jpg" alt="Фото Елены" class="profile-photo">
+
+          <div class="profile-content">
+            <div class="small">Сейчас в фокусе</div>
+            <div class="profile-title">Помогаю бизнесу расти через продуманные цифровые решения.</div>
+            <div class="small" style="margin-top:8px">Город: Оренбург/Москва • Формат: удалённо / проектно</div>
+
+            <div class="hr"></div>
+
+            <div class="small">Быстрые ссылки</div>
+            <div class="links" style="margin-top:10px; flex-wrap:wrap">
+              <a href="https://t.me/el_tka" target="_blank" rel="noreferrer">Telegram</a>
+              <a href="https://github.com/el-tka/Projects" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://www.instagram.com/el_tka" target="_blank" rel="noreferrer">Instagram</a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Проекты -->
+    <section id="projects">
+      <h2 class="section-title">Проекты</h2>
+      <p class="section-desc">3–6 лучших работ. Даже учебные — ок, если красиво оформлены.</p>
+
+      <div class="grid">
+        <article class="card project">
+          <h3>Проект 1 — Название</h3>
+          <p>Коротко: что делали, для кого, результат (1–2 предложения).</p>
+          <div class="meta">
+            <span>HTML</span><span>CSS</span><span>Landing</span>
+          </div>
+          <div class="links">
+            <a href="#" target="_blank" rel="noreferrer">Демо</a>
+            <a href="#" target="_blank" rel="noreferrer">Код</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <h3>Проект 2 — Название</h3>
+          <p>Коротко: задача → решение → что получилось.</p>
+          <div class="meta">
+            <span>UI</span><span>Figma</span><span>Case</span>
+          </div>
+          <div class="links">
+            <a href="#" target="_blank" rel="noreferrer">Кейс</a>
+            <a href="#" target="_blank" rel="noreferrer">Макет</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <h3>Проект 3 — Название</h3>
+          <p>Ещё один пример: можно добавить бот/таблицу/прототип/мини-сайт.</p>
+          <div class="meta">
+            <span>Prototype</span><span>No-code</span><span>AI</span>
+          </div>
+          <div class="links">
+            <a href="#" target="_blank" rel="noreferrer">Описание</a>
+            <a href="#" target="_blank" rel="noreferrer">Ссылка</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- О себе + Навыки -->
+    <section class="two-col" style="margin-top:18px">
+      <div class="card pad" id="about">
+        <h2 class="section-title">О себе</h2>
+        <p class="section-desc">
+          5–7 строк: кто вы, чем интересуетесь, что любите делать, какой стиль работы.
+        </p>
+        <ul class="list">
+          <li>Что вы делаете лучше всего (1)</li>
+          <li>Что вы делаете лучше всего (2)</li>
+          <li>Какие задачи вам особенно нравятся</li>
+        </ul>
+      </div>
+
+      <div class="card pad" id="skills">
+        <h2 class="section-title">Навыки</h2>
+        <p class="section-desc">Список, который не стыдно подтвердить проектами.</p>
+        <div class="chips">
+          <span class="chip">HTML</span>
+          <span class="chip">CSS</span>
+          <span class="chip">Адаптив</span>
+          <span class="chip">Figma</span>
+          <span class="chip">Копирайт</span>
+          <span class="chip">Notion</span>
+        </div>
+        <div class="hr"></div>
+        <div class="small">Совет: лучше 6–10 реальных навыков, чем 25 «всё умею».</div>
+      </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contacts">
+      <div class="card pad">
+        <h2 class="section-title">Контакты</h2>
+        <p class="section-desc">Оставь 2–3 способа связи + короткую фразу “отвечаю в течение …”.</p>
+
+        <div class="chips" style="margin-top:10px">
+          <span class="chip">Email: yourmail@example.com</span>
+          <span class="chip">Telegram: @yourname</span>
+          <span class="chip">Город: Рига</span>
+        </div>
+
+        <div class="hr"></div>
+        <p class="small">
+          Хочешь — добавим сюда простую форму обратной связи (пока без бэкенда будет “симуляция”).
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <footer class="site-footer">
+  <div class="footer-container">
+
+    <div class="footer-column">
+      <h3>Ваше имя</h3>
+      <p class="footer-text">
+        Личное портфолио. Проекты, идеи и эксперименты.
+      </p>
+    </div>
+
+    <div class="footer-column">
+      <h4>Навигация</h4>
+      <ul>
+        <li><a href="#projects">Проекты</a></li>
+        <li><a href="#about">Обо мне</a></li>
+        <li><a href="#skills">Навыки</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Соцсети</h4>
+      <ul>
+        <li><a href="https://t.me/">Telegram</a></li>
+        <li><a href="https://github.com/">GitHub</a></li>
+        <li><a href="https://linkedin.com/">LinkedIn</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © <span id="year"></span> Ваше имя. Все права защищены.
+    <a href="#" class="back-top">↑ Наверх</a>
+  </div>
+    </footer>
+  </main>
+
+  <!-- Маленький JS прямо тут: только чтобы год обновлялся автоматически -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
