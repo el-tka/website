@@ -1,234 +1,781 @@
 <!doctype html>
 <html lang="ru">
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Ваше имя — Портфолио</title>
-  <meta name="description" content="Портфолио: проекты, навыки, контакты." />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Мини-стили прямо внутри файла (чтобы больше ничего не создавать) -->
-  <link rel="stylesheet" href="style.css">
+<title>Елена Скворцова — Data Scientist</title>
+
+<meta name="description" content="Portfolio Data Scientist">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
+
 <body>
-  <!-- Шапка -->
-  <header>
-    <div class="nav">
-      <div class="brand"><span class="dot"></span> <span>Елена Скворцова</span></div>
-      <nav class="menu">
-        <a href="#projects">Проекты</a>
-        <a href="#about">О себе</a>
-        <a href="#skills">Навыки</a>
-        <a href="#contacts">Контакты</a>
-      </nav>
-    </div>
-  </header>
 
-  <main class="container">
-    <!-- Hero-блок (верх страницы) -->
-    <div class="hero">
-      <div class="hero-grid">
-        <div class="card pad">
-          <h1>Привет, я <span style="color:var(--accent)">Елена</span> 👋</h1>
-          <p class="subtitle">
-              <strong>Data Scientist</strong> с более чем <strong>4-летним опытом работы в IT и аналитике данных</strong>, 
-              специализирующийся на разработке аналитических решений и моделей машинного обучения для бизнеса. 
-              В настоящее время работаю в международной компании <strong>Cargill</strong>, где занимаюсь анализом данных 
-              и созданием моделей, позволяющих находить закономерности в данных и поддерживать стратегические решения.<br><br>
+<header>
 
-              Ранее работала с данными в крупнейших компаниях ритейла и FMCG — 
-              <strong>X5 Retail Group</strong> и <strong>ВкусВилл</strong>. 
-              В X5 занималась анализом <strong>сырых логов кассовых систем</strong> и участвовала во внедрении 
-              <strong>process mining</strong> для анализа и оптимизации операционных процессов. 
-              Во ВкусВилл разрабатывала решения для <strong>прогнозирования спроса на товары</strong>, 
-              исследовала <strong>структуру потребительской корзины</strong> и участвовала в задачах 
-              <strong>оптимизации товарных остатков в магазинах</strong>.<br><br>   
-            </p>
+<div class="nav">
 
-          <div class="actions">
-            <a class="btn primary" href="#projects">Смотреть проекты →</a>
-            <a class="btn" href="#contacts">Связаться</a>
-          </div>
+<div class="brand">
+<span class="dot"></span>
+<span>Елена Скворцова</span>
+</div>
 
-          <div class="chips">
-            <span class="chip">Python/R</span>
-            <span class="chip">SQL</span>
-            <span class="chip">Tensorflow</span>
-            <span class="chip">Scikitlearn</span>
-            <span class="chip">Pytorch</span>
-            <span class="chip">Recsys</span>
-            <span class="chip">LLM</span>
-            <span class="chip">Classic ML</span>
-            <span class="chip">XGBoost</span>
-            <span class="chip">Statsmodels</span>
-            <span class="chip">Pandas</span>
-            <span class="chip">NumPy</span>
-            <span class="chip">Tableau</span>
-            <span class="chip">Git</span>
-            <span class="chip">Docker</span>
-            <span class="chip">Jupyter</span>
-            <span class="chip">Airflow</span>
-          </div>
-        </div>
+<nav class="menu">
+<a href="#projects">Проекты</a>
+<a href="#about">Обо мне</a>
+<a href="#skills">Навыки</a>
+<a href="#contacts">Контакты</a>
+</nav>
 
-        <div class="card pad profile-card">
-          <img src="я.jpg" alt="Фото Елены" class="profile-photo">
+</div>
 
-          <div class="profile-content">
-            <div class="small">Сейчас в фокусе</div>
-            <div class="profile-title">Помогаю бизнесу расти через продуманные цифровые решения.</div>
-            <div class="small" style="margin-top:8px">Город: Оренбург/Москва • Формат: удалённо / проектно</div>
+</header>
 
-            <div class="hr"></div>
 
-            <div class="small">Быстрые ссылки</div>
-            <div class="links" style="margin-top:10px; flex-wrap:wrap">
-              <a href="https://t.me/el_tka" target="_blank" rel="noreferrer">Telegram</a>
-              <a href="https://github.com/el-tka/Projects" target="_blank" rel="noreferrer">GitHub</a>
-              <a href="https://www.instagram.com/el_tka" target="_blank" rel="noreferrer">Instagram</a>
-              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
-            </div>
-          </div>
-        </div>
+
+<main class="container">
+
+
+<!-- HERO -->
+
+<section class="hero fade-in">
+
+<div class="hero-grid">
+
+<div class="card pad">
+
+<h1>
+
+Создаю цифровые решения,<br>
+которые помогают бизнесу расти
+
+</h1>
+
+<p class="subtitle">
+
+<strong>Data Scientist</strong> с опытом более <strong>4+ лет</strong> в IT и аналитике данных.
+
+Работаю с данными в международной компании <strong>Cargill</strong>,
+ранее — <strong>X5 Retail Group</strong> и <strong>ВкусВилл</strong>.
+
+Специализация: <strong>machine learning, аналитика данных и прогнозные модели</strong>,
+которые помогают бизнесу принимать решения на основе данных.
+
+</p>
+
+<div class="actions">
+
+<a class="btn primary" href="#projects">Смотреть проекты</a>
+
+<a class="btn" href="#contacts">Связаться</a>
+
+</div>
+<div class="ai-channel fade-in">
+
+<div class="ai-channel-info">
+
+<div class="ai-label">
+<i class="fa-brands fa-telegram"></i>
+Telegram-канал
+</div>
+
+<p class="ai-desc">
+Пишу о том, как использовать <strong>искусственный интеллект
+в повседневной жизни, работе и инвестициях</strong>.
+Промпты, инструменты и реальные кейсы использования AI.
+</p>
+
+<a class="btn ai-btn"
+href="https://t.me/softpowerandai"
+target="_blank">
+
+Перейти в канал
+
+</a>
+
+</div>
+
+
+<div class="ai-qr">
+
+<img class="qr-glow"
+src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://t.me/softpowerandai">
+
+<div class="qr-label">
+Scan to open
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="card pad profile-card">
+
+<img src="me.JPG" class="profile-photo">
+
+<div class="profile-content">
+
+<div class="small location">
+
+Москва / Оренбург • удалённо
+
+</div>
+
+<div class="hr"></div>
+
+<div class="links">
+
+<a href="https://t.me/el_tka" target="_blank">Telegram</a>
+
+<a href="https://github.com/el-tka/Projects" target="_blank">GitHub</a>
+
+<a href="https://www.instagram.com/el_tka" target="_blank">Instagram</a>
+
+<a href="https://www.kaggle.com/?amp=1" target="_blank">Kaggle</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- PROJECTS -->
+
+<section id="projects" class="fade-in">
+
+<h2 class="section-title">Проекты</h2>
+
+<p class="section-desc">
+
+Примеры проектов в области аналитики данных и машинного обучения
+
+</p>
+
+
+<div class="projects-grid">
+
+<!-- project -->
+
+<div class="project card">
+
+<div class="slider">
+
+<img src="churn_1.png">
+<img src="churn_2.png">
+
+<button class="prev">‹</button>
+<button class="next">›</button>
+
+</div>
+
+<h3>Модель оттока клиентов</h3>
+
+<p class="project-description">
+Из одной крупной компании стали уходить клиенты каждый месяц. Немного, но заметно. Маркетологи компании посчитали: сохранять текущих клиентов дешевле, чем привлекать новых. Поэтому было необходимо спрогнозировать, уйдёт клиент в ближайшее время или нет. Были предоставлены исторические данные о поведении клиентов и расторжении договоров с компанией.
+</p>
+<p class="project-description">
+Как результат, было проведено исследование данных, исследован баланс классов, изучены модели без учёта дисбаланса, применено несколько способов борьбы с дисбалансом, подобрана модель, выдающая оптимальные показатели <strong>f1 и roc-auc </strong>, на основе которой можно прогнозировать отток клиентов. Модель прошла проверку на адекватность.
+</p>
+
+<div class="project-footer">
+<div class="tech-stack">
+
+<span class="tech">Python</span>
+<span class="tech">Pandas</span>
+<span class="tech">Scikit-learn</span>
+
+</div>
+
+<a class="github-link" href="https://github.com/el-tka/bank_customer_churn_prediction/tree/main" target="_blank">
+
+<i class="fa-brands fa-github"></i>
+Смотреть код на GitHub
+
+</a>
+
+</div>
+</div>
+
+
+
+<div class="project card">
+
+<div class="slider">
+
+<img src="reco_1.jpeg">
+<img src="reco_2.jpeg">
+<img src="reco_3.png">
+
+<button class="prev">‹</button>
+<button class="next">›</button>
+
+</div>
+
+<h3>Рекомендательная система</h3>
+
+<p class="project-description">
+  Разработка алгоритмов персональных рекомендаций для клиентов стримингового видео-сервиса. В основе модели рекомендаций лежит <strong>двухуровневая система.</strong>
+</p>
+<p class="project-description">
+ Первый уровень предполагает обработку данных для <strong>генерации кандидатов </strong> для рекомендаций. Второй уровень предполагает использование <strong>"реранкера"</strong> для формирования персонализированных рекомендаций на основе истории активности пользователя, мета-данных по фильмам и истории взаимодействия пользователя с контентом сервиса.
+ </p>
+ <p class="project-description">
+ В процессе создания рекомендательной системы были использованы модели <strong>lightfm, ranker</strong> и протестированы модели <strong>catboost.</strong>
+</p>
+<div class="project-footer">
+
+<div class="tech-stack">
+
+<span class="tech">Python</span>
+<span class="tech">Pandas</span>
+<span class="tech">LightFM</span>
+<span class="tech">Ranker</span>
+<span class="tech">Catboost</span>
+
+</div>
+
+<a class="github-link" href="https://github.com/el-tka/recommendation_system" target="_blank">
+
+<i class="fa-brands fa-github"></i>
+Смотреть код на GitHub
+
+</a>
+
+</div>
+</div>
+
+
+
+<div class="project card">
+
+<div class="slider">
+
+<img src="oil_0.jpeg">
+<img src="oil_2.png">
+<img src="oil_3.png">
+
+<button class="prev">‹</button>
+<button class="next">›</button>
+
+</div>
+
+<h3>Выбор локации для бурения нефтяных скважин</h3>
+
+<p class="project-description">
+В рамках проекта была разработана модель машинного обучения для выбора наиболее прибыльного региона для бурения нефтяных скважин. Использовались данные геологоразведки по трём регионам <strong>(10 000 скважин в каждом)</strong>, содержащие характеристики месторождений и объём запасов нефти.
+</p>
+<p class="project-description">
+Была обучена модель <strong>Linear Regression</strong>, прогнозирующая объём запасов нефти в новых скважинах. На основе предсказаний была рассчитана потенциальная прибыль для каждого региона. Для оценки риска убытков использована техника <strong>Bootstrap</strong>, позволившая смоделировать распределение прибыли и определить вероятность отрицательного результата.
+</p>
+<p class="project-description"></p>
+По результатам анализа выбран регион с максимальной <strong> ожидаемой прибылью и допустимым уровнем риска</strong>, что позволяет оптимизировать инвестиции в бурение и снизить финансовые потери.
+</p>
+
+<div class="project-footer">
+
+<div class="tech-stack">
+
+<span class="tech">Python</span>
+<span class="tech">Pandas</span>
+<span class="tech">Bootstrap</span>
+<span class="tech">Scikit-learn</span>
+<span class="tech">NumPy</span>
+<span class="tech">Matplotlib</span>
+
+</div>
+
+<a class="github-link" href="https://github.com/el-tka/oil-well-location-selection" target="_blank">
+
+<i class="fa-brands fa-github"></i>
+Смотреть код на GitHub
+
+</a>
+
+</div>
+</div>
+
+
+
+<div class="project card">
+
+<div class="slider">
+
+<img src="gold_1.jpeg">
+<img src="gold_2.png">
+<img src="gold_3.png">
+<img src="gold_4.png">
+
+<button class="prev">‹</button>
+<button class="next">›</button>
+
+</div>
+
+<h3>Прогноз коэффициента восстановления золота</h3>
+
+<p class="project-description">
+  Проект по разработке модели машинного обучения для прогнозирования коэффициента восстановления золота 
+  на различных этапах технологического процесса переработки руды. В работе использованы данные 
+  о параметрах добычи, флотации и очистки концентрата.
+</p>
+
+<p class="project-description">
+  Проведены <strong>предобработка данных</strong>, <strong>исследовательский анализ (EDA)</strong>, 
+  обучение моделей машинного обучения и оценка качества по специализированной метрике 
+  <strong>sMAPE</strong>. Модель прогнозирует эффективность обогащения как для чернового, 
+  так и для финального концентрата.
+</p>
+
+<p class="project-description">
+  Решение может использоваться для повышения эффективности технологического процесса 
+  и снижения потерь металла на промышленных предприятиях.
+</p>
+
+<div class="project-footer">
+
+<div class="tech-stack">
+
+<span class="tech">Python</span>
+<span class="tech">Pandas</span>
+<span class="tech">XGBoost</span>
+<span class="tech">Scikit-learn</span>
+<span class="tech">NumPy</span>
+<span class="tech">Matplotlib</span>
+<span class="tech">Seaborn</span>
+<span class="tech">Plotly</span>
+
+</div>
+
+<a class="github-link" href="https://github.com/el-tka/gold-recovery-rate-prediction" target="_blank">
+
+<i class="fa-brands fa-github"></i>
+Смотреть код на GitHub
+
+</a>
+
+</div>
+</div>
+
+
+
+<div class="project card">
+
+<div class="slider">
+
+<img src="dash_1.jpeg">
+<img src="dash_2.png">
+<img src="dash_3.png">
+<img src="dash_4.png">
+
+<button class="prev">‹</button>
+<button class="next">›</button>
+
+</div>
+
+
+<h3>BI-дашборд </h3>
+
+<p class="project-description">
+Интерактивный аналитический дашборд, разработанный с использованием 
+<strong>Python, Dash и Plotly</strong> для анализа погодных данных Москвы 
+за последние <strong>10 лет</strong>.
+</p>
+
+<p class="project-description">
+Приложение позволяет исследовать ключевые климатические показатели, 
+включая температуру, осадки, скорость ветра и уровень солнечной радиации. 
+Дашборд предоставляет интерактивные визуализации и позволяет проводить 
+быстрый анализ взаимосвязей между различными метеорологическими параметрами.
+</p>
+
+<p class="project-description">
+Данные загружаются из <strong>Microsoft SQL Server</strong>, обрабатываются 
+с помощью <strong>Pandas</strong> и визуализируются в виде интерактивных 
+графиков, которые обновляются в режиме реального времени с использованием 
+механизма <strong>Dash callbacks</strong>.
+</p>
+
+<h4>Основные возможности</h4>
+
+<ul>
+<li>Анализ динамики максимальной и минимальной температуры</li>
+<li>Визуализация средней максимальной температуры по годам</li>
+<li>Корреляционный анализ температуры и солнечной радиации</li>
+<li>Диаграмма распределения скорости ветра (роза ветров)</li>
+<li>Анализ суммарных осадков по месяцам</li>
+<li>Интерактивная фильтрация данных по годам</li>
+</ul>
+
+
+<div class="project-footer">
+
+<div class="tech-stack">
+
+<span class="tech">Python</span>
+<span class="tech">Dash</span>
+<span class="tech">Plotly</span>
+<span class="tech">Pandas</span>
+<span class="tech">SQL Server</span>
+<span class="tech">PyODBC</span>
+<span class="tech">Docker</span>
+<span class="tech">Logging</span>
+
+</div>
+
+<a class="github-link" href="https://github.com/el-tka/weather-analytics-dashboard" target="_blank">
+
+<i class="fa-brands fa-github"></i>
+Смотреть код на GitHub
+
+</a>
+</div>
+</div>
+
+
+
+<div class="project card">
+
+<div class="slider">
+
+<img src="ai_1.jpeg">
+<img src="ai_2.png">
+<img src="ai_3.png">
+
+<button class="prev">‹</button>
+<button class="next">›</button>
+
+</div>
+
+<h3>AI-консьерж для бесконтактного заселения</h3>
+
+<p class="project-description">
+AI-ассистент для автоматизации коммуникации с гостями мини-отелей и апартаментов после подтверждения бронирования.
+</p>
+
+<p class="project-description">
+Система выполняет роль цифрового консьержа: отвечает на вопросы гостей о размещении, правилах проживания, инструкциях по бесконтактному заселению и расположении объекта. Ассистент также информирует о действующих акциях и помогает гостям отправлять сервисные запросы, например на ранний заезд или поздний выезд.
+</p>
+
+<p class="project-description">
+  Все запросы автоматически фиксируются в системе управления заявками, что позволяет менеджерам быстро обрабатывать обращения гостей и поддерживать высокий уровень сервиса без постоянного ручного общения.
+</p>
+
+<p class="project-description">
+Проект демонстрирует применение <strong>генеративного AI </strong> для автоматизации клиентской поддержки в сфере <strong>hospitality</strong> и оптимизации операционных процессов небольших объектов размещения.
+</p>
+
+<p class="project-description">AI-ассистент умеет:</p>
+
+<ul>
+<li>отвечать на вопросы о размещении</li>
+<li>объяснять процесс заселения</li>
+<li>давать инструкции по доступу в апартаменты</li>
+<li>предоставлять информацию о локации</li>
+<li>сообщать о скидках и акциях</li>
+<li>принимать запросы на ранний заезд/ поздний выезд</li>
+<li>фиксировать сервисные заявки</li>
+</ul>
+
+
+<div class="project-footer">
+
+<div class="tech-stack">
+
+<span class="tech">OpenAI GPTs</span>
+<span class="tech">Prompt Engineering</span>
+<span class="tech">Knowledge Systems</span>
+<span class="tech">Google Docs</span>
+<span class="tech">Zapier</span>
+<span class="tech">Google Sheets</span>
+
+</div>
+
+<a class="github-link" href="https://chatgpt.com/g/g-69b4903245b88191ac77cbae0c2a214f-apartment-check-in-concierge" target="_blank">
+
+<img src="chatgpt-icon.svg" class="chatgpt-icon">
+
+Открыть в ChatGPT
+
+</a>
+</div>
+</div>
+</div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="two-col">
+
+<div class="card pad fade-in" id="about">
+
+<h2 class="section-title">Обо мне</h2>
+
+<p>
+Я работаю в области <strong>аналитики данных и машинного обучения</strong>,
+помогая компаниям находить закономерности в данных,
+строить прогнозные модели и принимать более точные
+бизнес-решения.
+</p>
+
+<p>
+В своей работе я сочетаю <strong>аналитическое мышление, продуктовый подход
+и глубокую работу с данными</strong>. Мне интересно не просто строить модели,
+а понимать бизнес-контекст задачи и находить решения,
+которые реально влияют на показатели компании.
+</p>
+
+<p>
+Я одинаково комфортно чувствую себя как в <strong>командной работе</strong>,
+где важно взаимодействие с аналитиками, разработчиками и бизнес-подразделениями,
+так и при <strong>индивидуальной работе над сложными аналитическими задачами</strong>,
+где требуется глубокое исследование данных и построение моделей.
+</p>
+
+<p>
+Имею опыт работы с данными в международной компании
+<strong>Cargill</strong>, а также в ритейле
+(<strong>X5 Retail Group</strong> и <strong>ВкусВилл</strong>).
+</p>
+
+<p>
+Во <strong>ВкусВилл</strong> я занималась задачами аналитики и машинного обучения
+для оптимизации работы магазинов. Среди ключевых проектов —
+<strong>оптимизация товарных остатков</strong>, построение
+<strong>модели прогнозирования спроса на товары</strong> и анализ
+<strong>потребительского поведения</strong> на основе транзакционных данных.
+</p>
+
+<p>
+В <strong>X5 Retail Group</strong> моя работа была связана с анализом
+операционных и пользовательских данных. Я занималась
+<strong>анализом сырых логов кассовых аппаратов</strong>,
+проводила <strong>кластеризацию пользователей</strong>,
+участвовала во внедрении системы <strong>process mining</strong>
+в сервисный отдел и анализировала
+<strong>эффективность системы self-scan</strong>.
+</p>
+
+<p>
+Я окончила магистратуру <strong>НИУ ВШЭ</strong> по направлению
+<strong>«Бизнес-аналитика и системы больших данных»</strong>.
+</p>
+
+<p>
+В свободное время я веду <strong>Telegram-канал о жизни с искусственным интеллектом</strong>,
+где делюсь практическими способами использования ИИ
+в повседневной жизни, работе и принятии решений.
+</p>
+
+</div>
+
+
+
+<div class="card pad skills-card fade-in" id="skills">
+
+  <div class="skills-header">
+    <h2 class="section-title">Навыки</h2>
+    <p class="section-desc">
+      Ключевые инструменты и направления, с которыми я работаю в аналитике данных и machine learning.
+    </p>
+  </div>
+
+  <div class="skills-categories">
+
+    <div class="skill-category">
+      <h3>Data Analysis</h3>
+      <div class="skills-stack">
+        <span class="skill-chip">Python</span>
+        <span class="skill-chip">SQL</span>
+        <span class="skill-chip">Pandas</span>
+        <span class="skill-chip">NumPy</span>
+        <span class="skill-chip">EDA</span>
+        <span class="skill-chip">MongoDB</span>
       </div>
     </div>
 
-    <!-- Проекты -->
-    <section id="projects">
-      <h2 class="section-title">Проекты</h2>
-      <p class="section-desc">3–6 лучших работ. Даже учебные — ок, если красиво оформлены.</p>
-
-      <div class="grid">
-        <article class="card project">
-          <h3>Проект 1 — Название</h3>
-          <p>Коротко: что делали, для кого, результат (1–2 предложения).</p>
-          <div class="meta">
-            <span>HTML</span><span>CSS</span><span>Landing</span>
-          </div>
-          <div class="links">
-            <a href="#" target="_blank" rel="noreferrer">Демо</a>
-            <a href="#" target="_blank" rel="noreferrer">Код</a>
-          </div>
-        </article>
-
-        <article class="card project">
-          <h3>Проект 2 — Название</h3>
-          <p>Коротко: задача → решение → что получилось.</p>
-          <div class="meta">
-            <span>UI</span><span>Figma</span><span>Case</span>
-          </div>
-          <div class="links">
-            <a href="#" target="_blank" rel="noreferrer">Кейс</a>
-            <a href="#" target="_blank" rel="noreferrer">Макет</a>
-          </div>
-        </article>
-
-        <article class="card project">
-          <h3>Проект 3 — Название</h3>
-          <p>Ещё один пример: можно добавить бот/таблицу/прототип/мини-сайт.</p>
-          <div class="meta">
-            <span>Prototype</span><span>No-code</span><span>AI</span>
-          </div>
-          <div class="links">
-            <a href="#" target="_blank" rel="noreferrer">Описание</a>
-            <a href="#" target="_blank" rel="noreferrer">Ссылка</a>
-          </div>
-        </article>
+    <div class="skill-category">
+      <h3>Machine Learning</h3>
+      <div class="skills-stack">
+        <span class="skill-chip">Scikit-learn</span>
+        <span class="skill-chip">XGBoost</span>
+        <span class="skill-chip">PyTorch</span>
+        <span class="skill-chip">TensorFlow</span>
+        <span class="skill-chip">Feature Engineering</span>
       </div>
-    </section>
-
-    <!-- О себе + Навыки -->
-    <section class="two-col" style="margin-top:18px">
-      <div class="card pad" id="about">
-        <h2 class="section-title">О себе</h2>
-        <p class="section-desc">
-          5–7 строк: кто вы, чем интересуетесь, что любите делать, какой стиль работы.
-        </p>
-        <ul class="list">
-          <li>Что вы делаете лучше всего (1)</li>
-          <li>Что вы делаете лучше всего (2)</li>
-          <li>Какие задачи вам особенно нравятся</li>
-        </ul>
-      </div>
-
-      <div class="card pad" id="skills">
-        <h2 class="section-title">Навыки</h2>
-        <p class="section-desc">Список, который не стыдно подтвердить проектами.</p>
-        <div class="chips">
-          <span class="chip">HTML</span>
-          <span class="chip">CSS</span>
-          <span class="chip">Адаптив</span>
-          <span class="chip">Figma</span>
-          <span class="chip">Копирайт</span>
-          <span class="chip">Notion</span>
-        </div>
-        <div class="hr"></div>
-        <div class="small">Совет: лучше 6–10 реальных навыков, чем 25 «всё умею».</div>
-      </div>
-    </section>
-
-    <!-- Контакты -->
-    <section id="contacts">
-      <div class="card pad">
-        <h2 class="section-title">Контакты</h2>
-        <p class="section-desc">Оставь 2–3 способа связи + короткую фразу “отвечаю в течение …”.</p>
-
-        <div class="chips" style="margin-top:10px">
-          <span class="chip">Email: yourmail@example.com</span>
-          <span class="chip">Telegram: @yourname</span>
-          <span class="chip">Город: Рига</span>
-        </div>
-
-        <div class="hr"></div>
-        <p class="small">
-          Хочешь — добавим сюда простую форму обратной связи (пока без бэкенда будет “симуляция”).
-        </p>
-      </div>
-    </section>
-
-    <footer>
-      <footer class="site-footer">
-  <div class="footer-container">
-
-    <div class="footer-column">
-      <h3>Ваше имя</h3>
-      <p class="footer-text">
-        Личное портфолио. Проекты, идеи и эксперименты.
-      </p>
     </div>
 
-    <div class="footer-column">
-      <h4>Навигация</h4>
-      <ul>
-        <li><a href="#projects">Проекты</a></li>
-        <li><a href="#about">Обо мне</a></li>
-        <li><a href="#skills">Навыки</a></li>
-        <li><a href="#contacts">Контакты</a></li>
-      </ul>
+    <div class="skill-category">
+      <h3>Recommendation & Forecasting</h3>
+      <div class="skills-stack">
+        <span class="skill-chip">Recommender Systems</span>
+        <span class="skill-chip">Time Series</span>
+        <span class="skill-chip">LightFM</span>
+        <span class="skill-chip">Ranking</span>
+      </div>
     </div>
 
-    <div class="footer-column">
-      <h4>Соцсети</h4>
-      <ul>
-        <li><a href="https://t.me/">Telegram</a></li>
-        <li><a href="https://github.com/">GitHub</a></li>
-        <li><a href="https://linkedin.com/">LinkedIn</a></li>
-      </ul>
+    <div class="skill-category">
+      <h3>Data Visualization & BI</h3>
+      <div class="skills-stack">
+        <span class="skill-chip">Tableau</span>
+        <span class="skill-chip">BI Dashboards</span>
+        <span class="skill-chip">Data Storytelling</span>
+        <span class="skill-chip">Reporting</span>
+      </div>
+    </div>
+
+    <div class="skill-category">
+      <h3>Data Engineering & Tools</h3>
+      <div class="skills-stack">
+        <span class="skill-chip">Git</span>
+        <span class="skill-chip">Docker</span>
+        <span class="skill-chip">Airflow</span>
+        <span class="skill-chip">Jupyter</span>
+        <span class="skill-chip">Pyspark</span>
+      </div>
+    </div>
+
+    <div class="skill-category">
+      <h3>AI & Product Thinking</h3>
+      <div class="skills-stack">
+        <span class="skill-chip">LLM</span>
+        <span class="skill-chip">Prompt Engineering</span>
+        <span class="skill-chip">AI Tools</span>
+        <span class="skill-chip">Product Analytics</span>
+      </div>
     </div>
 
   </div>
 
-  <div class="footer-bottom">
-    © <span id="year"></span> Ваше имя. Все права защищены.
-    <a href="#" class="back-top">↑ Наверх</a>
-  </div>
-    </footer>
-  </main>
+</div>
 
-  <!-- Маленький JS прямо тут: только чтобы год обновлялся автоматически -->
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+</section>
+
+
+<!-- CONTACTS -->
+
+<section id="contacts" class="fade-in">
+
+<div class="card pad">
+
+<h2 class="section-title">Контакты</h2>
+
+<div class="contact-list">
+
+<a href="mailto:el1skvortsova@gmail.com">
+<i class="fa-solid fa-envelope"></i>
+el1skvortsova@gmail.com
+</a>
+
+<a href="https://t.me/el_tka">
+<i class="fa-brands fa-telegram"></i>
+Telegram
+</a>
+
+<a href="https://github.com/el-tka/Projects">
+<i class="fa-brands fa-github"></i>
+GitHub
+</a>
+
+<a href="https://www.kaggle.com/?amp=1">
+<i class="fa-brands fa-kaggle"></i>
+Kaggle
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+
+<footer class="site-footer">
+
+<div class="footer-container">
+
+<div>
+<h3>Елена Скворцова</h3>
+<p>Data Science & Machine Learning</p>
+</div>
+
+<div>
+<a href="#projects">Проекты</a>
+<a href="#skills">Навыки</a>
+<a href="#contacts">Контакты</a>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+© <span id="year"></span>
+</div>
+
+</footer>
+
+
+<script>
+
+document.getElementById("year").textContent =
+new Date().getFullYear();
+
+document.querySelectorAll(".slider").forEach(slider=>{
+
+let index=0
+
+const slides=slider.querySelectorAll("img")
+
+slides.forEach((img,i)=>img.style.display=i?"none":"block")
+
+slider.querySelector(".next").onclick=()=>{
+
+slides[index].style.display="none"
+
+index=(index+1)%slides.length
+
+slides[index].style.display="block"
+
+}
+
+slider.querySelector(".prev").onclick=()=>{
+
+slides[index].style.display="none"
+
+index=(index-1+slides.length)%slides.length
+
+slides[index].style.display="block"
+
+}
+
+})
+
+</script>
+
 </body>
+
 </html>
